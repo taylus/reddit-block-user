@@ -12,17 +12,17 @@ To block a user click 'block user' below a message from a user you wish to block
 
 I don't think you should have to interact with someone to block them. [The reddit API doesn't, either](https://www.reddit.com/dev/api/#POST_api_block_user). But in a confusing display of poor user experience, this feature is (kind of?) missing from the UI.
 
-When I say kind of, that's because you can apparently block someone by reporting their posts. This isn't the case in the [app I use on iOS](http://getnarwhal.com/), however, so I wrote this.
+When I say kind of, that's because you can apparently block someone by reporting their posts. This isn't the case in the (otherwise great) [app I use on iOS](http://getnarwhal.com/), however, so I wrote this.
 
 ## Blocking users using the reddit API
 
 The following demonstrates how to use the reddit API to block users using an HTTP client such as `curl` or [Postman](https://www.postman.com/). Basic proficiency using REST APIs helps but is not required.
 
-## Register a "script" type application for personal use
+### Register a "script" type application for personal use
 
 Follow [these instructions](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example) in order to create an "application" you can use to access the reddit API. Upon completion this will provide you a client ID and secret for use in subsequent API calls.
 
-## Use the "password" grant type for quick n' dirty authentication
+### Use the "password" grant type for quick n' dirty authentication
 
 Send a `POST` request to `https://www.reddit.com/api/v1/access_token` with:
 
@@ -34,7 +34,7 @@ Send a `POST` request to `https://www.reddit.com/api/v1/access_token` with:
 
 If successful, you should get a response back with an `access_token`, hang onto that for the next call.
 
-## Block the user
+### Block the user
 
 Send a `POST` request to `https://oauth.reddit.com/api/block_user` with:
 
