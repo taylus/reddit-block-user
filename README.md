@@ -12,7 +12,9 @@ To block a user click 'block user' below a message from a user you wish to block
 
 I don't think you should have to interact with someone to block them. [The reddit API doesn't, either](https://www.reddit.com/dev/api/#POST_api_block_user). But in a confusing display of poor user experience, this feature is (kind of?) missing from the UI.
 
-When I say kind of, that's because you can apparently block someone by reporting their posts. This isn't the case in the (otherwise great) [app I use on iOS](http://getnarwhal.com/), however, so I wrote this.
+When I say kind of, that's because you can (sometimes?) block someone by reporting their posts. But this isn't the case in the (otherwise great) [app I use on iOS](http://getnarwhal.com/), so I wrote this.
+
+[Reddit Enhancement Suite](https://redditenhancementsuite.com/) also lets you block people, but this doesn't carry over to mobile.
 
 ## Blocking users using the reddit API
 
