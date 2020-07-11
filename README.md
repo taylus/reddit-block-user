@@ -19,7 +19,7 @@ When I say kind of, that's because...
 ## Caveats
 
 * [Reddit Enhancement Suite](https://redditenhancementsuite.com/) allows you to block people, but this doesn't carry over to mobile.
-* The official Reddit mobile app allows you to block people, but I don't use it.
+* The official mobile app allows you to block people, but I don't use it.
 * You can block someone by reporting their posts. But that creates more work for mods, and doesn't work in the (otherwise great) [app I use on iOS](http://getnarwhal.com/), so I wrote this.
 
 ## Blocking users using the reddit API
