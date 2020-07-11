@@ -2,6 +2,8 @@
 
 Without having to private message or report them.
 
+(Or use the official mobile app, apparently.)
+
 ## Who thought this was a good idea?
 
 If you've ever visited <https://www.reddit.com/prefs/blocked>, you'll see this notice:
@@ -10,11 +12,15 @@ If you've ever visited <https://www.reddit.com/prefs/blocked>, you'll see this n
 To block a user click 'block user' below a message from a user you wish to block from messaging you.
 ```
 
-I don't think you should have to interact with someone to block them. [The reddit API doesn't, either](https://www.reddit.com/dev/api/#POST_api_block_user). But in a confusing display of poor user experience, this feature is (kind of?) missing from the UI.
+I don't think you should have to interact with someone to block them. [The reddit API doesn't, either](https://www.reddit.com/dev/api/#POST_api_block_user). But in a confusing display of poor user experience, this feature is (kind of) missing from the UI.
 
-When I say kind of, that's because you can (sometimes?) block someone by reporting their posts. But this isn't the case in the (otherwise great) [app I use on iOS](http://getnarwhal.com/), so I wrote this.
+When I say kind of, that's because...
 
-[Reddit Enhancement Suite](https://redditenhancementsuite.com/) also lets you block people, but this doesn't carry over to mobile.
+## Caveats
+
+* [Reddit Enhancement Suite](https://redditenhancementsuite.com/) allows you to block people, but this doesn't carry over to mobile.
+* The official Reddit mobile app allows you to block people, but I don't use it.
+* You can block someone by reporting their posts. But that creates more work for mods, and doesn't work in the (otherwise great) [app I use on iOS](http://getnarwhal.com/), so I wrote this.
 
 ## Blocking users using the reddit API
 
