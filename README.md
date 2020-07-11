@@ -47,7 +47,7 @@ If successful, you should get a response back with an `access_token`, hang onto 
 Send a `POST` request to `https://oauth.reddit.com/api/block_user` with:
 
 * A body conforming to the [documentation here](https://www.reddit.com/dev/api/#POST_api_block_user)
-  * `account_id` and `uh` don't seem necessary?
+  * The `account_id` and `uh` properties don't seem necessary?
   * I got by with just `api_type=json&name={name}`
   * Where {name} is the reddit username you wish to block
 
