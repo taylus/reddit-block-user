@@ -1,0 +1,10 @@
+body {
+    font-family: Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111;
+        color: #fff;
+    }
+}
